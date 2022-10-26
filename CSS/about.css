@@ -1,0 +1,17 @@
+.btn-ht{
+    background-color: black;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    color: white;
+}
+.btn-ht:hover{
+    text-decoration-line:underline;
+}
+
+.about h3{
+    font-weight: bold;
+}
+.map iframe{
+    width: 100%;
+}

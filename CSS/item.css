@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.slider-for .slick-slide img {
+    width: 50% !important;
+    margin: auto;
+}
+
+.info{
+    font-family: 'Montserrat', sans-serif;
+    color: slategray;
+    font-weight: bold;
+}
+
+.info ul {
+    list-style: none;
+    border-left:1px solid slategray !important;
+
+}
+
+.info li{
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+
+.info li span{
+    border: 0.5px solid slategray;
+    padding:2px 2%;
+
+}
+
+.info li button{
+    width: 100%;
+
+}
+
+.info li span:hover{
+    font-weight: bold;
+}
+
+.info table tr,.info td{
+    border: 1px solid slategray;
+    padding-left: 10px;
+}

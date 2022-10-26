@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+    .img-how {
+        display: none !important;
+    }
+
+    .info-img-cart {
+        width: 150%;
+    }
+
+    .hoaDon .col-12{
+        padding-left: 0.5rem;
+    }
+
+}
+
+.sl-cart span {
+    margin: 0 1rem;
+}
+
+.nut-thanhToan button {
+
+    width: 100%;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    color: white;
+
+
+}
+
+.nut-thanhToan :first-child,
+.nut-thanhToan :first-child h4 {
+    background-color: #FECA0A;
+}
+
+.nut-thanhToan :last-child {
+    background-color: #030303;
+}
+
+.dw-toggle{
+    border: 1px solid gray;
+    padding: 1rem;
+}
+

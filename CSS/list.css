@@ -1,0 +1,57 @@
+*{
+    scroll-behavior: smooth;
+}
+.danh-muc {
+    font-family: 'Courier New', Courier, monospace;
+    color: slategray;
+    font-weight: bold;
+
+}
+
+
+
+.danh-muc ul {
+    list-style: none;
+    border-right:2px solid slategray !important;
+
+}
+
+.danh-muc li{
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+.danh-muc li:hover{ 
+    text-decoration-line:underline ;
+}
+
+a{
+    text-decoration: none;
+    color: slategray;
+
+}
+
+.title-sp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.card{
+    cursor: pointer;
+}
+.card-img-2{
+    display: none;
+}
+.card:hover{
+    font-weight: bold;
+}
+
+.card:hover > .card-img-1{
+    display: none;
+}
+.card:hover > .card-img-2{
+    display: block;
+}
+
+
+
