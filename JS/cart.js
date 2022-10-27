@@ -28,12 +28,10 @@ console.log('data',data['jacket'][0])
 
 
 if (listCart || !listCart == []) {
+    $('#total-cart').innerHTML = '400.000 VNĐ'
     listCart.map(info => {
         console.log('info',info)
         const item = data[info[0]][info[1]]
-
-        alert('yes')
-
 
         let itemCart = `
         <div class="row mb-1">

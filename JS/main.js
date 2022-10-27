@@ -4,6 +4,7 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 const chidren = data.chidren
 const jacket = data.jacket
+const male = data.male
 let htmlHangMoiVe = []
 
 // su ly lan chuot hien navbar
@@ -19,7 +20,7 @@ function scrollTop() {
 }
 window.addEventListener("scroll", scrollTop);
 
-// tao r local gio hang
+// tao local gio hang
 let listCart = JSON.parse(localStorage.getItem("LIST_CARD_SHOP-N9"))
 
 if(!listCart){
@@ -32,7 +33,7 @@ if(!listCart){
 
 
 
-chidren.map((item, index) => {
+male.map((item, index) => {
   htmlHangMoiVe.push(
     `
         <div class="card h-100" style="width: 18rem;" onclick="setLocal(['jacket',${index}])">
@@ -43,9 +44,9 @@ chidren.map((item, index) => {
                 <h5 class="card-title">${item.name}</h5>
                 <p class="card-text">${item.sale}</p>
                 <h4 class="card-title text-info">${item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} VNĐ</h4>
-                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                <p><a href="" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
                   class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
-                  class="fas fa-user"></i></a> <strong><a href="./san pham.html" style="color: rgb(1, 105, 119);">xem chi tiết</a></strong>
+                  class="fas fa-user"></i></a> <strong><a href="" style="color: rgb(1, 105, 119);">xem chi tiết</a></strong>
               </p>
               </div>
             </div>
@@ -74,9 +75,10 @@ jacket.map((item, index) => {
             
                 <h6 class="gachchu">44.990.000</h6>
                 <h4 class="card-title text-danger">${item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}VNĐ</h4>
-                <a href="./san pham.html" class="">
-                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
-                </a>
+                <p><a href="" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                class="fas fa-user"></i></a> <strong><a href="" style="color: rgb(1, 105, 119);">xem chi tiết</a></strong>
+            </p>
               </div>
             </div>
         `

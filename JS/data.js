@@ -179,7 +179,7 @@ const data = {
             price: 679000,
             sale: null,
             color: ['#b0bdce', '#132a4a', '#5fa6d0', '#ec9a48', '#d195d0'],
-            moTa: ['Chỉ số chống UV UPF 50+, cản được 98% tia UV tiếp xúc với áo ',
+            description: ['Chỉ số chống UV UPF 50+, cản được 98% tia UV tiếp xúc với áo ',
                 'Màu sắc đa dạng, thời trang, dễ phối đồ • Form dáng gọn gàng, thuận tiện di chuyển ', 'Áo có 2 túi trước, 2 túi bụng bên trong và 1 túi dây kéo dọc an toàn bên trong rất tiện dụng và an toàn đựng đồ', 'Logo trước + sau: in phảng quang 7 màu có hoa văn ẩn.'],
             info: ['44.5% Recycled Cotton – 55.5% Recycled Polyester, trọng lượng 255gsm',
                 'Regular', 'Xanh đậm, Vàng bơ đậm, Xanh nhạt, Xám, Tím', 'Việt Nam'],
@@ -208,7 +208,7 @@ const data = {
             price: 729000,
             sale: null,
             color: ['#ED9B49', '#CB593D', '#000000', '#C3B5C5'],
-            moTa: 'Áo khoác dù trượt nước phù hợp cho việc sử dụng trong những thời điểm mưa nhỏ bất thường, sương mù. Bề mặt vải có tính năng trượt nước và lớp cán xử lý TPU bên trong vừa ngăn thấm vào trong nhưng vẫn đảm bảo độ thoáng khí khi mặc. Form áo dáng rộng thời trang, được tăng cường thêm 2 túi dây kéo ở thân trước, túi ngang ở bên trong áo, thân sau tăng cường lỗ thoát hơi. Logo tay áo in phản quang trong bóng tối.',
+            description: 'Áo khoác dù trượt nước phù hợp cho việc sử dụng trong những thời điểm mưa nhỏ bất thường, sương mù. Bề mặt vải có tính năng trượt nước và lớp cán xử lý TPU bên trong vừa ngăn thấm vào trong nhưng vẫn đảm bảo độ thoáng khí khi mặc. Form áo dáng rộng thời trang, được tăng cường thêm 2 túi dây kéo ở thân trước, túi ngang ở bên trong áo, thân sau tăng cường lỗ thoát hơi. Logo tay áo in phản quang trong bóng tối.',
             info: [' Dù trượt nước gân mờ, thành phần 100% Polyester', 'Relax',
                 'Vàng Bơ, Nâu Cam, Đen, Xám', 'Việt Nam'],
 
@@ -242,7 +242,7 @@ const data = {
             price: 799000,
             sale: null,
             color: ['#FFFFFF', '#212529'],
-            moTa: 'Áo khoác dù dày form bomber oversize với bo được dệt sọc trẻ trung, có đường coupe và diễu chỉ nhăn dọc tay cá tính, thân trước áo thêu logo F&F, thân sau gắn logo silicon X . • Áo có 2 túi dây kéo thân trước, 1 túi cơi ngang mặt trong.',
+            description: 'Áo khoác dù dày form bomber oversize với bo được dệt sọc trẻ trung, có đường coupe và diễu chỉ nhăn dọc tay cá tính, thân trước áo thêu logo F&F, thân sau gắn logo silicon X . • Áo có 2 túi dây kéo thân trước, 1 túi cơi ngang mặt trong.',
             info: ['  100% polyester', 'Oversize bomber',
                 'Đen, Rêu', 'Việt Nam'],
 
@@ -262,7 +262,7 @@ const data = {
             price: 799000,
             sale: null,
             color: ['#962401', '#000000'],
-            moTa: 'Mẫu áo khoác dù nằm trong BST Fast & Furious. Form áo Relax tạo cảm giác thoải mái kết hợp cùng phần hình in F&F nổi bật, cá tính. Đi kèm 2 túi hộp thân trước và 1 túi cơi ngang mặt trong cực tiện dụng.',
+            description: 'Mẫu áo khoác dù nằm trong BST Fast & Furious. Form áo Relax tạo cảm giác thoải mái kết hợp cùng phần hình in F&F nổi bật, cá tính. Đi kèm 2 túi hộp thân trước và 1 túi cơi ngang mặt trong cực tiện dụng.',
             info: ['Dù dày, 100% Polyester', 'Relax',
                 'Đen, Nâu cam', 'Việt Nam'],
 
@@ -284,7 +284,7 @@ const data = {
             price: 759000,
             sale: null,
             color: ['#6688a8'],
-            moTa: 'Form oversize năng động với điểm nhấn xếp lai, lệch tà trước sau.',
+            description: 'Form oversize năng động với điểm nhấn xếp lai, lệch tà trước sau.',
             info: ['Jeans 100% Cotton, trọng lượng 13.3oz', 'Oversize',
                 'Xanh nhạt', 'Việt Nam'],
 
@@ -306,7 +306,7 @@ const data = {
             price: 699000,
             sale: null,
             color: ['#b0bdce', '#152c4c', '#529cff', '#ed9b48'],
-            moTa: ['Chỉ số chống UV UPF 50+, cản được 98% tia UV tiếp xúc với áo ',
+            description: ['Chỉ số chống UV UPF 50+, cản được 98% tia UV tiếp xúc với áo ',
                 'Màu sắc đa dạng, thời trang, dễ phối đồ • Form dáng gọn gàng, thuận tiện di chuyển ', 'Áo có 2 túi trước, 2 túi bụng bên trong và 1 túi dây kéo dọc an toàn bên trong rất tiện dụng và an toàn đựng đồ', 'Logo trước + sau: in phảng quang 7 màu có hoa văn ẩn.'],
             info: ['44.5% Recycled Cotton – 55.5% Recycled Polyester, trọng lượng 255gsm',
                 'Regular', 'Xanh đậm, Vàng bơ đậm, Xanh nhạt, Xám, Tím', 'Việt Nam'],
@@ -343,7 +343,7 @@ const data = {
             price: 729000,
             sale: null,
             color: ['#ED9B49', '#CB593D', '#000000', '#C3B5C5'],
-            moTa: 'Áo khoác dù trượt nước phù hợp cho việc sử dụng trong những thời điểm mưa nhỏ bất thường, sương mù. Bề mặt vải có tính năng trượt nước và lớp cán xử lý TPU bên trong vừa ngăn thấm vào trong nhưng vẫn đảm bảo độ thoáng khí khi mặc. Form áo dáng rộng thời trang, được tăng cường thêm 2 túi dây kéo ở thân trước, túi ngang ở bên trong áo, thân sau tăng cường lỗ thoát hơi. Logo tay áo in phản quang trong bóng tối.',
+            description: 'Áo khoác dù trượt nước phù hợp cho việc sử dụng trong những thời điểm mưa nhỏ bất thường, sương mù. Bề mặt vải có tính năng trượt nước và lớp cán xử lý TPU bên trong vừa ngăn thấm vào trong nhưng vẫn đảm bảo độ thoáng khí khi mặc. Form áo dáng rộng thời trang, được tăng cường thêm 2 túi dây kéo ở thân trước, túi ngang ở bên trong áo, thân sau tăng cường lỗ thoát hơi. Logo tay áo in phản quang trong bóng tối.',
             info: [' Dù trượt nước gân mờ, thành phần 100% Polyester', 'Relax',
                 'Vàng Bơ, Nâu Cam, Đen, Xám', 'Việt Nam'],
 
@@ -384,7 +384,7 @@ const data = {
             price: 829000,
             sale: null,
             color: ['#FFFFFF', '#212529'],
-            moTa: 'Áo khoác dù dày form bomber oversize với bo được dệt sọc trẻ trung, có đường coupe và diễu chỉ nhăn dọc tay cá tính, thân trước áo thêu logo F&F, thân sau gắn logo silicon X . • Áo có 2 túi dây kéo thân trước, 1 túi cơi ngang mặt trong.',
+            description: 'Áo khoác dù dày form bomber oversize với bo được dệt sọc trẻ trung, có đường coupe và diễu chỉ nhăn dọc tay cá tính, thân trước áo thêu logo F&F, thân sau gắn logo silicon X . • Áo có 2 túi dây kéo thân trước, 1 túi cơi ngang mặt trong.',
             info: ['  100% polyester', 'Oversize bomber',
                 'Đen, Rêu', 'Việt Nam'],
 
@@ -405,7 +405,7 @@ const data = {
             price: 829000,
             sale: null,
             color: ['#962401', '#000000'],
-            moTa: 'Mẫu áo khoác dù nằm trong BST Fast & Furious. Form áo Relax tạo cảm giác thoải mái kết hợp cùng phần hình in F&F nổi bật, cá tính. Đi kèm 2 túi hộp thân trước và 1 túi cơi ngang mặt trong cực tiện dụng.',
+            description: 'Mẫu áo khoác dù nằm trong BST Fast & Furious. Form áo Relax tạo cảm giác thoải mái kết hợp cùng phần hình in F&F nổi bật, cá tính. Đi kèm 2 túi hộp thân trước và 1 túi cơi ngang mặt trong cực tiện dụng.',
             info: ['Dù dày, 100% Polyester', 'Relax',
                 'Đen, Nâu cam', 'Việt Nam'],
 
@@ -428,7 +428,7 @@ const data = {
             price: 799000,
             sale: null,
             color: ['#b3bfd1'],
-            moTa: 'Áo Khoác Nam Jean Wash Rách Túi MOF 1008. Form áo rộng rãi, kết hợp các chi tiết wash rách tinh tế, nhẹ nhàng.',
+            description: 'Áo Khoác Nam Jean Wash Rách Túi MOF 1008. Form áo rộng rãi, kết hợp các chi tiết wash rách tinh tế, nhẹ nhàng.',
             info: ['Jeans 100% Cotton, trọng lượng 13.3oz', 'Relax',
                 'Xanh nhạt', 'Việt Nam'],
 

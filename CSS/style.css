@@ -36,7 +36,7 @@
 }
 
 .fixNav {
-    transition: 3s;
+    transition: 1s;
     position: fixed;
     top: 0;
 }

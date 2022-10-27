@@ -113,7 +113,7 @@ function Validator(option) {
 
             return values;
           },
-          {});
+            {});
 
           option.onsubmit(formValues); // sự kiện submit
         }
@@ -232,7 +232,26 @@ Validator({
     Validator.isRequired('input[name="law"]', "bạn chưa chọn mục này"),
   ], // truyền funtion vào Validator.rules
 
+
+
   onsubmit: function (data) {
-    console.log(data);
+
+    if (data.province) {
+      alert('Đăng kí thành công')
+      $('main').innerHTML = `
+      <h3> Form thông tin đăng kí<h3> <br>
+      <h5>Email: ${data.email} </h5> <br>
+      <h5>Họ tên: ${data.fullname} </h5> <br>
+      <h5>Password: ${data.password} </h5> <br>
+      <h5>Tỉnh: ${data.province} </h5> <br>
+    
+      `
+    }
+    else {
+      $('#login').click();
+    }
+
+
+
   },
 });
