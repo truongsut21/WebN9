@@ -62,11 +62,11 @@
 
                 </li>
 
-                <li class="nav-item px-2">
-                  <a class="nav-link" href="./HTML/list.html">Tất cả sản phẩm</a>
+                <li class="nav-item ">
+                  <a class="nav-link" href="./HTML/list.html">Sản phẩm</a>
                 </li>
                 <li>
-                  <a class="nav-link" href="./HTML/about.html">Thông tin về chúng tôi</a>
+                  <a class="nav-link" href="./HTML/about.html">Thông tin</a>
                 </li>
                 <li class=" dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -87,7 +87,7 @@
                 <!-- <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm sản phẩm"> -->
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-                <a class="px-5 text-white mr-sm-2" href="./HTML/singup.html">Đăng ký <i class="fas fa-key"></i></a>
+                <a class="px-5 text-white mr-sm-2" id="sig" href="./HTML/singup.html">Đăng ký <i class="fas fa-key"></i></a>
                 <a href="./HTML/login.html" class=" text-white">Đăng nhập <i class="fas fa-user"></i></a>
               </form>
             </div>
@@ -189,7 +189,7 @@
       <div class="row">
         <div class="col-md-12 col-sm-12">
           <section class="regular-sm slider giamGiasmhtml">
-
+            ............................
           </section>
         </div>
       </div>
@@ -205,6 +205,7 @@
       <div class="row">
         <div class="col-12">
           <section class="regular slider hangMoiVe">
+            .................................
           </section>
         </div>
       </div>
@@ -513,7 +514,7 @@
     function setLocal(index) {
       localStorage.removeItem('ITEM_SHOP_N9');
       localStorage.setItem('ITEM_SHOP_N9', JSON.stringify(index))
-      window.open("./item.html");
+      window.open("./HTML/item.html");
 
     }
   </script>

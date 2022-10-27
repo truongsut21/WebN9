@@ -25,7 +25,7 @@ jacket.map((item, index) => {
                 src="${item.img[1]}"
                 alt="Card image cap">
               <div class="card-body">
-                <p class="card-text title-sp">${item.name}<br> ${item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}} VNĐ</p>
+                <p class="card-text title-sp">${item.name}<br> ${item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} VNĐ</p>
               </div>
             </a>
       `
@@ -47,7 +47,7 @@ male.map((item,index) => {
       src="${item.img[1]}"
       alt="Card image cap">
               <div class="card-body">
-                <p class="card-text title-sp">${item.name}<br> ${item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}} VNĐ</p>
+                <p class="card-text title-sp">${item.name}<br> ${item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} VNĐ</p>
               </div>
             </div>
       `

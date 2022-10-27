@@ -35,6 +35,22 @@
 
 }
 
+@media only screen and (max-width: 1280) {
+
+.nav-item a{
+    font-size: 10px;
+}
+
+#sig{
+    padding: auto 10px;
+
+}
+
+}
+
+
+
+
 .fixNav {
     transition: 1s;
     position: fixed;
