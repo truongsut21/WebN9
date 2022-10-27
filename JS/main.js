@@ -66,7 +66,7 @@ jacket.map((item, index) => {
         <div class="card h-100" style="width: 18rem;" onclick="setLocal(['jacket',${index}])">
               <img class="card-img-top card-img-1" src="${item.img[0]}" alt="Card image cap" class="fluid" ">
               <img class="card-img-top card-img-2" src="${item.img[1]}" alt="Card image cap" class="fluid" ">
-              <img class="card-img-top img-sale" src="../img/salepng.png" alt="Card image cap" class="fluid" style="    position: absolute;
+              <img class="card-img-top img-sale" src="./img/salepng.png" alt="Card image cap" class="fluid" style="    position: absolute;
               top: 0px;
               width: 138px;">
               
