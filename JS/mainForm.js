@@ -244,6 +244,8 @@ Validator({
       <h5>Họ tên: ${data.fullname} </h5> <br>
       <h5>Password: ${data.password} </h5> <br>
       <h5>Tỉnh: ${data.province} </h5> <br>
+      <br>
+      <a href="./index.html"> <h3> Trang chủ </h3> </a>
     
       `
     }
